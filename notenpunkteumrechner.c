@@ -65,5 +65,6 @@ float convertNotezuNotenpunkt(float Note) {
     float tmp;
     tmp = Note * 3;
     tmp = tmp - 17;
+    tmp = tmp * (-1);
     return tmp;
 }
